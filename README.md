@@ -2,7 +2,6 @@
 Kafka server example for windows. Versão 2.12-2.3.0. You could start kafka easily in the Localhost.
 
 ## Pre-condition
-
 You need to create the following folder:
 c:\Temp
 
@@ -36,4 +35,4 @@ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic tdc-entrada
 
 ### Start Producer
 kafka-console-producer.bat --broker-list localhost:9092 --topic tdc-entrada
-> (fill message)
+> (write the message)
